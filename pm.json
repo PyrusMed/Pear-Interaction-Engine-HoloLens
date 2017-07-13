@@ -1,0 +1,7 @@
+{
+	"id": "pear-med-pieHoloLens",
+	"alias": "pieHL",
+	"actions": {
+		"sync": "git pull"
+	}
+}
