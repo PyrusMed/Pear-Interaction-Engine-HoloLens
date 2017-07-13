@@ -6,9 +6,6 @@ namespace Pear.InteractionEngine.Examples
 {
     public class HoloLensControllerExample : HoloLensController
     {
-		// Tap to select control
-        public TapToSelect TapToSelect;
-
 		// Pinch to drag controls
 		public PinchAndDrag Rotator;
 		public PinchAndDrag Resizer;
@@ -16,7 +13,7 @@ namespace Pear.InteractionEngine.Examples
 
 		void Awake()
         {
-            TapToSelect.SelectedEvent += go => ActiveObject = go;
+            //TapToSelect.SelectedEvent += go => ActiveObject = go;
 
 			// Maps a control to a mode
 			Dictionary<Modes, PinchAndDrag> _modeControlMap = new Dictionary<Modes, PinchAndDrag>()
